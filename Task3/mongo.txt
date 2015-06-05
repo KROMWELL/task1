@@ -1,0 +1,5 @@
+db.yourCollectionName.find({"scores.score":{$gt:93, $lt:95}}).pretty() 
+
+db.yourCollectionName.aggregate({$unwind: "$scores"}, {$match: {"scores.type": "exam"}}, {$match: {"scores.score": {$gt: 90}}}).pretty()
+
+db.yourCollectionName.update({name: "Vinnie Auerbach"}, {$set: {"accepted": true}})
