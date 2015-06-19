@@ -1,0 +1,50 @@
+
+#field{
+   margin: 0 0 30 0;
+}
+
+.clear{
+  clear:both;
+}
+
+.newBlock{
+   border: 1px solid #FF8F9D;
+   width:200px;
+   padding: 10 10 10 15;
+   background: #FFF0F2;
+}
+
+.deleteBtn{
+   color: #cc5555;
+   float: right;
+   cursor: pointer;
+   display: none;
+   margin: -18 0 0 0;
+}
+
+.check{
+  margin: 2 10 0 -10;
+  float:left;
+}
+
+.newText{
+   float:left;
+}
+
+.checkedText{
+  opacity: 0.5;
+  text-decoration: line-through;
+  float: left;
+}
+
+.changeName{
+   position:absolute;
+   width:175px;
+   height:38px;
+   margin: -10 0 0 0;
+   outline: none;
+   border:none;
+   
+}
+
+
