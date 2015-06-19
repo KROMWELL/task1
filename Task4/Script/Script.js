@@ -3,7 +3,20 @@
 		$("input:checked").closest(".newBlock").remove();
 		
 	})
-	 
+
+    
+    $("#checkAll").change(function(){
+		if(this.checked){
+			$("input[type='checkbox']").prop({ "checked": true});
+			 $(".newText").addClass("checkedText");
+		}else{
+			$("input[type='checkbox']").prop({ "checked": false});
+			 $(".newText").removeClass("checkedText");
+		}
+	})
+	
+	
+
 	 $("#field").keyup(function(event){
 		    var value = $(this).val();
 			if(event.keyCode == 13){
