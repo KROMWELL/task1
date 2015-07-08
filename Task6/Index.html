@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+   <head>
+      <link rel="stylesheet" href="Style.css">
+	  <script src="Script/jquery-1.11.2.min.js"></script>
+	  <script src="Script/Model.js"></script>
+	  <script src="Script/Controller.js"></script>
+	  <script type="text/javascript">
+ 
+            $(document).ready(function() {
+                new Controller();
+            });
+ 
+        </script>
+   </head>
+   <body>
+     <div id = "wrapper">
+        <div id ="block1">
+	         <input id = "name" placeholder = "Name:">
+	    </div>
+		<div id ="block2">
+		   <ul>
+		      <li id = "nameSpan">Name: </li>
+		      <li id = "ageSpan">Age: </li>
+		      <li id = "yearSpan">Year: </li>
+			  <li id = "examSpan">Exams taken: </li>
+		   </ul>
+		</div>
+      </div>
+   </body>
+</html>
