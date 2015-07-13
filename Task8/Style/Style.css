@@ -1,0 +1,72 @@
+#wrapper{
+   width: 1015px;
+   min-height:300px;
+   background:#02020E;
+}
+
+input{
+   margin:10px;
+}
+
+.totalNumber{
+   color:white;
+   font-size:20pt;
+   margin:15px 0px 0px 0px;
+   float:right;
+   margin-right:35px;
+}
+
+#peopleList{
+   width: 500px;
+   min-height:100px;
+   float:left;
+   position:relative;
+}
+#goodsList{
+   width: 500px;
+   min-height:100px;
+   float:right;
+   position:relative;
+   margin-left:15px;
+}
+
+.list{
+  width:500px;
+  height:60px;
+  background:#13141B;
+  border-top:1px solid #2A2B3C;
+  margin:15px 0px 15px 0px;
+}
+
+
+
+.user{
+  width: 400px;
+  position:absolute;
+  left: 65px;
+  color:#D2D3EF;
+  line-height:2em;
+}
+
+.item{
+  width: 400px;
+  position:absolute;
+  left: 65px;
+  color:#D2D3EF;
+  line-height:2em;
+}
+
+span{
+   float: right;
+   color: #fff;
+   cursor:pointer;
+}
+
+img{
+   border-radius:50%;
+   margin:5px;
+}
+
+.clear{
+   clear:both;
+}

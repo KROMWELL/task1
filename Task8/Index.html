@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html ng-app = "myApp">
+   <head>
+      <link rel="stylesheet" href="Style/Style.css">
+	  <script src="Script/angular.min.js"></script>
+	  <script src="Script/myApp.js"></script>
+   </head>
+   <body>
+      <div id = "wrapper">
+	     <div id = "peopleList" ng-controller = "peopleListController">
+		    <input type = "text" placeholder = "Search:"  ng-model = "text.name">
+			<button ng-click = "toogle()">Toogle</button>
+			<p class = "totalNumber">Total: {{people.length}}</p>
+			<div class = "list" ng-repeat = "person in people | filter:text" ng-hide = "hidePeopleList">
+			   <p class = "user" ng-model = "person"> User: {{person.name.toUpperCase()}}, {{person.age}}, {{person.city}}  <span ng-click = "deletePerson()">×</span></p>
+			   <img ng-src = "{{person.avatar}}"}>
+			</div>
+			
+		 </div>
+	     <div id = "goodsList"  ng-controller = "goodsListController">
+		    <input type = "text" placeholder = "Search:" ng-model = "text">
+			<button ng-click = "toogle()">Toogle</button>
+			<p class = "totalNumber">Total: {{goods.length}}</p>
+			<div class = "list" ng-repeat = "item in goods | filter:text" ng-hide = "hideGoodsList">
+			   <p class = "item" ng-model = "item">{{item.name}}, {{item.price}} <span ng-click = "deleteGoods()">×</span></p>
+			</div>
+		 </div>
+		 <div class = "clear"></div>
+	  </div>
+   </body>
+</html>
