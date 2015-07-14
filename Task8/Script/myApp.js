@@ -34,7 +34,7 @@ angular.module("myApp", [])
 					   {name: "Car", price: randomPrice(20000,100000)+"$"},
 					   {name: "PS4", price: randomPrice(300,500)+"$"}];
 	   $scope.deleteGoods = function(person) { 
-          var index = $scope.goods.indexOf(this.thing); 
+          var index = $scope.goods.indexOf(this.item); 
           $scope.goods.splice(index, 1); 
         };
 	   
