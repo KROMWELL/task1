@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html ng-app = "myApp">
+   <head>
+      <link rel="stylesheet" href="Style/Style.css">
+	  <script src="Script/angular.min.js"></script>
+	  <script src="Script/angular-resource.min.js"></script>
+	  <script src="Script/Script.js"></script>
+   </head>
+   <body>
+   
+      <div id = "wrapper">
+	     <div ng-controller = "listController as photos">
+             
+			    <img id = "loadGif" src = "http://antik-salon.com/wp-content/themes/antik/loading.gif">
+		         <div img-dir   class = "listItem"   ng-repeat = "photo in photos.message" >
+				     <img id="{{photo.url}}"	  ng-src = "{{photo.thumbnailUrl}}">
+				     <p>{{photo.title}}</p>
+				 </div>
+	
+		 </div>
+	  </div>
+	 
+   </body>
+</html>
