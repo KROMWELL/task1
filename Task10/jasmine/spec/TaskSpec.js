@@ -11,6 +11,9 @@ describe("Man", function(){
 		expect(man.live).toBeTruthy();
 	})
 	
+	
+	
+	
 	describe("but", function(){
 		
 		var man;
@@ -24,10 +27,32 @@ describe("Man", function(){
 		   expect(man.age).toEqual(30);
 	   })
 	})
+///////////////////////////////////////////////////////////////////////////
+
+describe("to Throw Error test case", function(){
+	it("somethingSomething", function(){
+		var man = function(){
+		return man.live;
+	   }
+	   
+	   expect(loh).toThrowError("ololo");
+	})
 	
+	
+	
+})
+
 ///////////////////////////////////////////////////////////////////////////
 	
-	describe("Student", function(){
+	
+})
+
+
+
+
+////////////////////////////////////////////////////////////////////////
+
+describe("Student", function(){
 	var man;
 	
 	beforeEach(function(){
@@ -56,12 +81,6 @@ describe("Man", function(){
 	})
   })
 
-})
-
-
-
-
-////////////////////////////////////////////////////////////////////////
 
 describe("Professor", function(){
 	var professor;

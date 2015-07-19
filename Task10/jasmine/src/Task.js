@@ -1,10 +1,6 @@
 var Man =  function  (name, age){
 	this.name = name;
 	this.age = age;
-	this.loh = function(){
-		return this.arguments;
-	}
-	
 	
 }
 
