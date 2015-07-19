@@ -8,12 +8,14 @@ Man.prototype.live = true;
 var man = new Man("Taras",30);
 
 var  Student = function (){
-	Man.apply(this,arguments);
+	Man.apply(this, arguments);
 }
 
 Student.prototype = Object.create(Man.prototype);
 Student.prototype.constructor = Student;
-Student.prototype.study = true;
+Student.prototype.study = function(){
+	return true;
+};
 var  student = new Student("Petro",20);
 
 alert(man.age);
@@ -27,7 +29,7 @@ var  duckType = function(obj){
 	}
 }  
 
-duckType(student);
+//duckType(man);
 ////////////////////////////////////////////////////////////////////
 var  duckType1 = function(){
 	if(this.study){
@@ -38,5 +40,5 @@ var  duckType1 = function(){
 	}
 }  
 
-duckType1.call(man);
+//duckType1.call(student);
 
