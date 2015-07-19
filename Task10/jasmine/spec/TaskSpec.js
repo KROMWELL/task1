@@ -11,9 +11,6 @@ describe("Man", function(){
 		expect(man.live).toBeTruthy();
 	})
 	
-	
-	
-	
 	describe("but", function(){
 		
 		var man;
@@ -27,32 +24,10 @@ describe("Man", function(){
 		   expect(man.age).toEqual(30);
 	   })
 	})
-///////////////////////////////////////////////////////////////////////////
-
-describe("to Throw Error test case", function(){
-	it("somethingSomething", function(){
-		var man = function(){
-		return man.live;
-	   }
-	   
-	   expect(loh).toThrowError("ololo");
-	})
 	
-	
-	
-})
-
 ///////////////////////////////////////////////////////////////////////////
 	
-	
-})
-
-
-
-
-////////////////////////////////////////////////////////////////////////
-
-describe("Student", function(){
+	describe("Student", function(){
 	var man;
 	
 	beforeEach(function(){
@@ -81,6 +56,12 @@ describe("Student", function(){
 	})
   })
 
+})
+
+
+
+
+////////////////////////////////////////////////////////////////////////
 
 describe("Professor", function(){
 	var professor;
@@ -114,111 +95,3 @@ describe("Professor", function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*describe("Student", function() {
-	
-	var student;
-	
-	beforeEach(function (){
-		student = new Man();
-		
-		//spyOn(Student, 'name');
-		//expect({Student}).toEqual(jasmine.any(Object));
-		//Student.name;
-	})
-	//afterEach (function() { student = undefined});
-	
-	
-	
-	it("inherited all man's properties and he is studying",  function(){
-		alert(man.name);
-		//expect(student).toEqual(1);
-		//expect({Student}).toEqual(jasmine.any(Object));
-		//expect(a.name).toBeDefined();
-		expect(student.live).toBeTruthy();
-		expect(man.name).toEqual("Taras");
-		//alert(student.name);
-		//expect(student.age).toBeTruthy();
-		//expect(student.study()).toBeTruthy();
-		//console.log(Student.name)
-	})
-	describe("but", function(){
-		it("his name and age is empty", function(){
-			//expect(student.name).toBeDefined();
-		})
-	})
-	
-});*/
-
-/*describe("jasmine.any", function(){
-	
-	var student;
-	
-	beforeEach(function (){
-		
-		student = new Student("Petro", 20);
-	})
-	
-	it("matches any value", function() {
-    expect({student}).toEqual(jasmine.any(Object));
-    expect(12).toEqual(jasmine.any(Number));
-    })
-});*/
-/*describe("Man", function() {
-	
-	var man;
-	beforeEach(function (){
-		
-		man = new Man();
-		
-	})
-	
-	
-	it("should be live",  function(){
-		//alert(man.age);
-		expect(man.live).toBeTruthy();
-		
-		
-	})
-	
-	
-});*/
-
-
-/*describe("A spy", function() {
-	
-	var man, name = null;
-	
-	beforeEach(function (){
-		
-		man = {
-			getAge: function(age){
-				return this.age;
-			}
-		};
-		
-		spyOn(man, "getAge");
-		man.getAge(20);
-	})
-	
-	
-	it("tracks that the spy was called", function() {
-    expect(man.getAge).toHaveBeenCalledWith(20);
-  })
-  
-});
-*/
