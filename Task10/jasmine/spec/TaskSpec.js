@@ -25,6 +25,47 @@ describe("Man", function(){
 	   })
 	})
 	
+	describe("A spy", function(){
+		var man, age = null;
+		
+		beforeEach(function(){
+			man = {
+				setAge : function(value){
+					age = value;
+				}
+			};
+			
+			spyOn(man, "setAge");
+			
+			man.setAge(30);
+		});
+	
+	
+	it("spy monitors man age", function(){
+		expect(man.setAge).toHaveBeenCalledWith(30);
+	});
+});
+
+describe("A spy", function(){
+		var man, name;
+		
+		beforeEach(function(){
+			man = {
+				setName : function(value){
+					name = value;
+				}
+			};
+			
+			spyOn(man, "setName");
+			
+			man.setName("Taras");
+		});
+	
+	
+	it("spy monitors man name", function(){
+		expect(man.setName).toHaveBeenCalledWith("Taras");
+	});
+});
 ///////////////////////////////////////////////////////////////////////////
 	
 	describe("Student", function(){
@@ -58,7 +99,47 @@ describe("Man", function(){
 
 })
 
+describe("A spy", function(){
+		var student, age = null;
+		
+		beforeEach(function(){
+			student = {
+				setAge : function(value){
+					age = value;
+				}
+			};
+			
+			spyOn(student, "setAge");
+			
+			student.setAge(20);
+		});
+	
+	
+	it("spy monitors student age", function(){
+		expect(student.setAge).toHaveBeenCalledWith(20);
+	});
+});
 
+describe("A spy", function(){
+		var student, name = null;
+		
+		beforeEach(function(){
+			student = {
+				setName : function(value){
+					name = value;
+				}
+			};
+			
+			spyOn(student, "setName");
+			
+			student.setName("Petro");
+		});
+	
+	
+	it("spy monitors student name", function(){
+		expect(student.setName).toHaveBeenCalledWith("Petro");
+	});
+});
 
 
 ////////////////////////////////////////////////////////////////////////
