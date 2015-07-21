@@ -1,0 +1,19 @@
+{
+  {"Ukraine}, 
+  
+  {"USA"},
+  
+  {"France},
+
+  {"Italy"}, 
+  
+  {"Germany"},
+  
+  {"Poland"},
+
+  {"Canada"}, 
+  
+  {"Aystralia"},
+  
+  {"Singapur"}
+}

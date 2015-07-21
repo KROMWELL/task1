@@ -1,0 +1,73 @@
+{
+  "Ukraine":{
+   "hotel_11":"name1",
+   "hotel_12":"name2",
+   "hotel_13":"name3",
+   "hotel_14":"name4",
+   "hotel_15":"name5"
+   }, 
+  
+  "USA":{
+   "hotel_21":"name1",
+   "hotel_22":"name2",
+   "hotel_23":"name3",
+   "hotel_24":"name4",
+   "hotel_25":"name5"
+   },
+  
+   "France":{
+   "hotel_31":"name1",
+   "hotel_32":"name2",
+   "hotel_33":"name3",
+   "hotel_34":"name4",
+   "hotel_35":"name5"
+   },
+
+   "Italy":{
+   "hotel_41":"name1",
+   "hotel_42":"name2",
+   "hotel_43":"name3",
+   "hotel_44":"name4",
+   "hotel_45":"name5"
+   }, 
+  
+  "Germany":{
+   "hotel_51":"name1",
+   "hotel_52":"name2",
+   "hotel_53":"name3",
+   "hotel_54":"name4",
+   "hotel_55":"name5"
+   },
+  
+   "Poland":{
+   "hotel_61":"name1",
+   "hotel_62":"name2",
+   "hotel_63":"name3",
+   "hotel_64":"name4",
+   "hotel_65":"name5"
+   },
+
+   "Canada":{
+   "hotel_71":"name1",
+   "hotel_72":"name2",
+   "hotel_73":"name3",
+   "hotel_74":"name4",
+   "hotel_75":"name5"
+   }, 
+  
+   "Aystralia":{
+   "hotel_81":"name1",
+   "hotel_82":"name2",
+   "hotel_83":"name3",
+   "hotel_84":"name4",
+   "hotel_85":"name5"
+   },
+  
+   "Singapur":{
+   "hotel_91":"name1",
+   "hotel_92":"name2",
+   "hotel_93":"name3",
+   "hotel_94":"name4",
+   "hotel_95":"name5"
+   }
+}

@@ -1,0 +1,375 @@
+{
+   "hotel_1":{
+   "title":"titleText1"
+   },
+   "hotel_2":{
+   "title":"titleText2"
+   },
+
+   "hotel_3":{
+   "title":"titleText3"
+   },
+
+   "hotel_4":{
+   "title":"titleText4"
+   },
+
+   "hotel_5":{
+   "title":"titleText5"
+   },
+
+   "hotel_6":{
+   "title":"titleText6"
+   },
+
+   "hotel_7":{
+   "title":"titleText7"
+   },
+
+   "hotel_8":{
+   "title":"titleText8"
+   },
+
+   "hotel_9":{
+   "title":"titleText9"
+   },
+
+   "hotel_10":{
+   "title":"titleText10"
+   },
+
+   "hotel_11":{
+   "title":"titleText11"
+   },
+
+   "hotel_12":{
+   "title":"titleText12"
+   },
+
+   "hotel_13":{
+   "title":"titleText13"
+   },
+
+   "hotel_14":{
+   "title":"titleText14"
+   },
+
+   "hotel_15":{
+   "title":"titleText15"
+   },
+
+   "hotel_16":{
+   "title":"titleText16"
+   },
+
+   "hotel_17":{
+   "title":"titleText17"
+   },
+
+   "hotel_18":{
+   "title":"titleText18"
+   },
+   "hotel_19":{
+   "title":"titleText19"
+   },
+
+   "hotel_20":{
+   "title":"titleText20"
+   },
+   "hotel_21":{
+   "title":"titleText21"
+   },
+   "hotel_22":{
+   "title":"titleText22"
+   },
+
+   "hotel_23":{
+   "title":"titleText23"
+   },
+
+   "hotel_24":{
+   "title":"titleText24"
+   },
+
+   "hotel_25":{
+   "title":"titleText25"
+   },
+
+   "hotel_26":{
+   "title":"titleText26"
+   },
+
+   "hotel_27":{
+   "title":"titleText27"
+   },
+
+   "hotel_28":{
+   "title":"titleText28"
+   },
+
+   "hotel_29":{
+   "title":"titleText29"
+   },
+
+   "hotel_30":{
+   "title":"titleText30"
+   },
+
+   "hotel_31":{
+   "title":"titleText31"
+   },
+
+   "hotel_32":{
+   "title":"titleText32"
+   },
+
+   "hotel_33":{
+   "title":"titleText33"
+   },
+
+   "hotel_34":{
+   "title":"titleText34"
+   },
+
+   "hotel_35":{
+   "title":"titleText35"
+   },
+
+   "hotel_36":{
+   "title":"titleText36"
+   },
+
+   "hotel_37":{
+   "title":"titleText37"
+   },
+
+   "hotel_38":{
+   "title":"titleText38"
+   },
+   "hotel_39":{
+   "title":"titleText39"
+   },
+
+   "hotel_40":{
+   "title":"titleText40"
+   },
+   "hotel_41":{
+   "title":"titleText41"
+   },
+   "hotel_42":{
+   "title":"titleText42"
+   },
+
+   "hotel_43":{
+   "title":"titleText43"
+   },
+
+   "hotel_44":{
+   "title":"titleText44"
+   },
+
+   "hotel_45":{
+   "title":"titleText45"
+   },
+
+   "hotel_45":{
+   "title":"titleText46"
+   },
+
+   "hotel_46":{
+   "title":"titleText46"
+   },
+
+   "hotel_47":{
+   "title":"titleText47"
+   },
+
+   "hotel_48":{
+   "title":"titleText48"
+   },
+
+   "hotel_49":{
+   "title":"titleText49"
+   },
+
+   "hotel_50":{
+   "title":"titleText50"
+   },
+
+   "hotel_51":{
+   "title":"titleText51"
+   },
+
+   "hotel_52":{
+   "title":"titleText52"
+   },
+
+   "hotel_53":{
+   "title":"titleText53"
+   },
+
+   "hotel_54":{
+   "title":"titleText54"
+   },
+
+   "hotel_55":{
+   "title":"titleText55"
+   },
+
+   "hotel_56":{
+   "title":"titleText56"
+   },
+
+   "hotel_57":{
+   "title":"titleText57"
+   },
+   "hotel_58":{
+   "title":"titleText58"
+   },
+
+   "hotel_59":{
+   "title":"titleText59"
+   },
+   "hotel_60":{
+   "title":"titleText60"
+   },
+   "hotel_61":{
+   "title":"titleText61"
+   },
+
+   "hotel_62":{
+   "title":"titleText62"
+   },
+
+   "hotel_63":{
+   "title":"titleText63"
+   },
+
+   "hotel_64":{
+   "title":"titleText64"
+   },
+
+   "hotel_65":{
+   "title":"titleText65"
+   },
+
+   "hotel_66":{
+   "title":"titleText66"
+   },
+
+   "hotel_67":{
+   "title":"titleText67"
+   },
+
+   "hotel_68":{
+   "title":"titleText68"
+   },
+
+   "hotel_69":{
+   "title":"titleText69"
+   },
+
+   "hotel_70":{
+   "title":"titleText70"
+   },
+
+   "hotel_71":{
+   "title":"titleText71"
+   },
+
+   "hotel_72":{
+   "title":"titleText72"
+   },
+
+   "hotel_73":{
+   "title":"titleText73"
+   },
+
+   "hotel_74":{
+   "title":"titleText74"
+   },
+
+   "hotel_75":{
+   "title":"titleText75"
+   },
+
+   "hotel_76":{
+   "title":"titleText76"
+   },
+
+   "hotel_77":{
+   "title":"titleText77"
+   },
+   "hotel_78":{
+   "title":"titleText78"
+   },
+
+   "hotel_79":{
+   "title":"titleText79"
+   },
+   "hotel_80":{
+   "title":"titleText80"
+   },
+
+   "hotel_81":{
+   "title":"titleText81"
+   },
+
+   "hotel_82":{
+   "title":"titleText82"
+   },
+
+   "hotel_83":{
+   "title":"titleText83"
+   },
+   "hotel_84":{
+   "title":"titleText84"
+   },
+
+   "hotel_85":{
+   "title":"titleText85"
+   },
+
+   "hotel_86":{
+   "title":"titleText86"
+   },
+
+   "hotel_87":{
+   "title":"titleText87"
+   },
+
+   "hotel_88":{
+   "title":"titleText88"
+   },
+   "hotel_89":{
+   "title":"titleText89"
+   },
+
+   "hotel_90":{
+   "title":"titleText90"
+   },
+
+   "hotel_91":{
+   "title":"titleText91"
+   },
+
+   "hotel_92":{
+   "title":"titleText92"
+   },
+
+   "hotel_93":{
+   "title":"titleText93"
+   },
+   "hotel_94":{
+   "title":"titleText94"
+   },
+
+   "hotel_95":{
+   "title":"titleText95"
+   },
+
+   "hotel_96":{
+   "title":"titleText96"
+   }
+
+}
