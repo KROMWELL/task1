@@ -13,7 +13,6 @@ module.exports = {
 	},
 	addHotel: function(req, res){
 		Hotel.create({country:req.param("name"), name: req.param("hotelName"), description: "someText"}).exec(function(err, hotel){
-			console.log("loh");
 			return res.send(hotel);
 		})
 	},
