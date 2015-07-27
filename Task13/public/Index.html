@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+       <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+   </head>
+   <body>
+       <div>
+	      <input type="text" placeholder="Name" id="inputName">
+	      <input type="button" value="AddName" id="inputButton">
+	   </div>
+	   <ul id="messages"></ul>
+	   <div>
+	      <textarea id="textArea" cols="30"  rows="10"></textarea>
+		  <input type="button" id="textButton" value="Send">
+	   </div>
+	   <script type="text/javascript">
+	       (function(){
+		      var inputName =$("#inputName");
+		      var inputButton = $("#inputButton");
+		      var messages = $("#messages");
+		      var textArea = $("#textArea");
+		      var textButton = $("#textButton");
+			  
+			  var userName = "User1";
+			  
+			  inputButton.click(function(){
+			     userName = inputName.val() || "User1";
+			  });
+			  
+			  textButton.click(function(){
+			     var data = {
+				    name: userName,
+					text: textArea.val()
+				 }
+				 
+				 textArea.val("");
+				 $.post("/messages", data)
+			  });
+			  
+			
+			  
+			  var getData = function(){
+			     messages.html("");
+			     $.getJSON("/messages", function(msg){
+				     for(var i in msg){
+					      if(msg.hasOwnProperty(i)){
+						     messages.append($("<li>").text(msg[i].name + ":" + msg[i].text));
+						  }
+					   }
+				 })
+			  };
+			  
+			  setInterval(function(){
+			     getData();
+			  }, 1000);
+			  
+		   })();
+	   </script>
+	  
+   </body>
+</html>
