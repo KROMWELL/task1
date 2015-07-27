@@ -2,13 +2,13 @@
 
 var express = require("express");
 var bodyParser = require("body-parser");
-//var socketio = require("socket.io");
+var socketio = require("socket.io");
 
 
 var app = express();
 
 var server = app.listen(8080);
-//var io = socket.listen(server);
+var io = socketio.listen(server);
 
 
 var staticDir = __dirname + "/public/";
@@ -16,13 +16,10 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 var messages = [];
 
-app.get("/", function(req, res){
-	res.sendFile(staticDir + "Index.html");
-});
 
-/*app.get("/sockets", function(req, res){
+app.get("/sockets", function(req, res){
 	res.sendFile(staticDir + "index_io.html");
-});*/
+});
 
 
 app.get("/messages", function(req, res){
@@ -35,7 +32,7 @@ app.post("/messages", function(req, res){
 	res.json(message);
 })
 
-/*io.on("connection", function(socket){
+io.on("connection", function(socket){
 	
 	console.log("Client connected");
 	
@@ -44,11 +41,11 @@ app.post("/messages", function(req, res){
 	});
 	
 	socket.on("chat message", function(msg){
-		mesages.push(msg);
+		messages.push(msg);
 		io.emit("chat message", msg);
 	});
 	
 	socket.emit("chat history", messages);
 	
 	
-})*/
+})
